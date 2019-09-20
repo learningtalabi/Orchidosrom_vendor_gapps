@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     $(VENDOR_PATH)/system/lib/libfrsdk.so:system/lib/libfrsdk.so \
+    $(VENDOR_PATH)/system/lib/libsketchology_native.so:system/lib/libsketchology_native.so
 
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/lib64/libfacenet.so:system/lib64/libfacenet.so \
