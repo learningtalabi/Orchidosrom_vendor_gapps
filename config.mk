@@ -60,3 +60,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/lib64/libfrsdk.so:system/lib64/libfrsdk.so \
     $(VENDOR_PATH)/system/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so \
     $(VENDOR_PATH)/system/lib64/libsketchology_native.so:system/lib64/libsketchology_native.so
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/usr/srec/en-US,$(TARGET_COPY_OUT_SYSTEM)/usr/srec/en-US)
