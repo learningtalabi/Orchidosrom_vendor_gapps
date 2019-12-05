@@ -5,7 +5,6 @@ VENDOR_PATH := vendor/gapps
 PRODUCT_PACKAGES += \
     FaceLock \
     GoogleContactsSyncAdapter \
-    GoogleTTS \
     LatinIMEGooglePrebuilt \
     SoundPickerPrebuilt \
     WebViewGoogle
