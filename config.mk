@@ -4,8 +4,7 @@ VENDOR_PATH := vendor/gapps
 
 PRODUCT_PACKAGES += \
     FaceLock \
-    GoogleContactsSyncAdapter \
-    WebViewGoogle
+    GoogleContactsSyncAdapter
 
 PRODUCT_PACKAGES += \
     AndroidPlatformServices \
