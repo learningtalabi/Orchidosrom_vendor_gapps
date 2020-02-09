@@ -24,12 +24,11 @@
 
 <exceptions>
 
-   <!--
+    <!--
     The exceptions below have been set by Open GApps as factory defaults
     -->
 
-    <exception
-            package="com.android.vending">
+    <exception package="com.android.vending">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
@@ -57,8 +56,7 @@
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.apps.gcs">
+    <exception package="com.google.android.apps.gcs">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
@@ -68,8 +66,7 @@
         <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.apps.messaging">
+    <exception package="com.google.android.apps.messaging">
         <!-- Camera -->
         <permission name="android.permission.CAMERA" fixed="false"/>
         <!-- Contacts -->
@@ -101,23 +98,20 @@
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.apps.nexuslauncher">
+    <exception package="com.google.android.apps.nexuslauncher">
         <!-- Status bar -->
         <permission name="android.permission.MANAGE_ACTIVITY_STACKS" fixed="false"/>
         <permission name="android.permission.STATUS_BAR" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.backuptransport">
+    <exception package="com.google.android.backuptransport">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
         <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.contacts">
+    <exception package="com.google.android.contacts">
         <!-- Calendar -->
         <permission name="android.permission.READ_CALENDAR" fixed="false"/>
         <permission name="android.permission.WRITE_CALENDAR" fixed="false"/>
@@ -145,8 +139,7 @@
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.dialer">
+    <exception package="com.google.android.dialer">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
@@ -169,16 +162,14 @@
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.feedback">
+    <exception package="com.google.android.feedback">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
         <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.gm.exchange">
+    <exception package="com.google.android.gm.exchange">
         <!-- Calendar -->
         <permission name="android.permission.READ_CALENDAR" fixed="false"/>
         <permission name="android.permission.WRITE_CALENDAR" fixed="false"/>
@@ -191,8 +182,7 @@
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.gms">
+    <exception package="com.google.android.gms">
         <!-- Calendar -->
         <permission name="android.permission.READ_CALENDAR" fixed="false"/>
         <permission name="android.permission.WRITE_CALENDAR" fixed="false"/>
@@ -229,8 +219,7 @@
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.googlequicksearchbar">
+    <exception package="com.google.android.googlequicksearchbar">
         <!-- Calendar -->
         <permission name="android.permission.READ_CALENDAR" fixed="false"/>
         <permission name="android.permission.WRITE_CALENDAR" fixed="false"/>
@@ -267,8 +256,7 @@
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.gsf">
+    <exception package="com.google.android.gsf">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
@@ -283,8 +271,7 @@
         <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.gsf.login">
+    <exception package="com.google.android.gsf.login">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
@@ -299,15 +286,13 @@
         <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.packageinstaller">
+    <exception package="com.google.android.packageinstaller">
         <!-- Storage -->
         <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.setupwizard">
+    <exception package="com.google.android.setupwizard">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
@@ -323,27 +308,25 @@
         <!-- Location -->
         <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
         <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
+        <!-- These are Q-only! -->
         <!-- Network -->
         <permission name="android.permission.REQUEST_NETWORK_SCORES" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.syncadapters.calendar">
+    <exception package="com.google.android.syncadapters.calendar">
         <!-- Calendar -->
         <permission name="android.permission.READ_CALENDAR" fixed="false"/>
         <permission name="android.permission.WRITE_CALENDAR" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.syncadapters.contacts">
+    <exception package="com.google.android.syncadapters.contacts">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
         <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.tag">
+    <exception package="com.google.android.tag">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
@@ -358,8 +341,7 @@
         <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.talk">
+    <exception package="com.google.android.talk">
         <!-- Camera -->
         <permission name="android.permission.CAMERA" fixed="false"/>
         <!-- Contacts -->
@@ -389,6 +371,11 @@
         <!-- Storage -->
         <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+    </exception>
+
+    <!-- These are Q-only! -->
+    <exception package="com.google.android.apps.wellbeing">
+        <permission name="android.permission.SUSPEND_APPS" fixed="false"/>
     </exception>
 
 </exceptions>
