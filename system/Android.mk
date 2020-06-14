@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleContactsSyncAdapter
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := app/GoogleContactsSyncAdapter/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -11,7 +11,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ConfigUpdater
-LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := priv-app/ConfigUpdater/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -21,7 +21,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GmsCoreSetupPrebuilt
-LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := priv-app/GmsCoreSetupPrebuilt/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -31,7 +31,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleBackupTransport
-LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := priv-app/GoogleBackupTransport/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -41,7 +41,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleRestore
-LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := priv-app/GoogleRestore/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -51,7 +51,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleServicesFramework
-LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := priv-app/GoogleServicesFramework/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -61,7 +61,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Phonesky
-LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := priv-app/Phonesky/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -71,7 +71,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := PrebuiltGmsCore
-LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := priv-app/PrebuiltGmsCore/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -81,7 +81,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := WellbeingPrebuilt
-LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := priv-app/WellbeingPrebuilt/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
