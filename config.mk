@@ -4,8 +4,15 @@ include $(call all-makefiles-under,$(LOCAL_PATH))
 VENDOR_PATH := vendor/gapps
 
 PRODUCT_PACKAGES += \
-    GoogleContactsSyncAdapter
+    Chrome \
+	Gboard \
+    Gmail \
+    GoogleContactsSyncAdapter \
+	MarkupGoogle \
+	PrebuiltBugle \
+	SoundPickerPrebuilt
 
+	
 PRODUCT_PACKAGES += \
     ConfigUpdater \
     GmsCoreSetupPrebuilt \
@@ -15,6 +22,10 @@ PRODUCT_PACKAGES += \
     Phonesky \
     PrebuiltGmsCore \
     WellbeingPrebuilt
+	Assistant \
+	AndroidMigratePrebuilt \
+	TipsPrebuilt \
+	PixelSetupWizard
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/etc/default-permissions,system/etc/default-permissions)
