@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     Phonesky \
     PrebuiltGmsCore \
-    WellbeingPrebuilt
+    WellbeingPrebuilt \
 	Assistant \
 	AndroidMigratePrebuilt \
 	TipsPrebuilt \
